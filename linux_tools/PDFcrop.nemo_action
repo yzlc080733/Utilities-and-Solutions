@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=PDF-crop
+Comment=Crop PDF with default pdfcrop settings
+Exec=pdfcrop "%F" "%F"
+Icon-Name=pdf
+Selection=notnone
+Extensions=pdf;
+EscapeSpaces=true
